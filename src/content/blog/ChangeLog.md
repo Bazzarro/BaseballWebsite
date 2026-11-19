@@ -11,21 +11,22 @@ Before we begin, **thank you for believing in BAS** and our mission to deliver t
 Our extensive feedback suggested that fans alike were generally interested in our product, however there was a clear demand for more metricts for users to see and get from their game simulations. The biggest demand was to merge our CLI with our dashboard for a complete package rather than a decoupled system. We agree with this consensus and have since delivered a great ammount of changes in our second version of BAS.
 
 ## Changes
-Our biggest change since version 1.0 is blah blah blah
+Our biggest change since version 1.0 is merging both of our tools that we offer. We had a strong foundation and pivoted towards consolidating all of them together into one cohesive package that follows our established goals as a company. Now more convenient than ever anyone can launch our application locally and reap the analytical data and metrics.
 
 Here is the full list of changes implemented:
 Added:
+- New simulator page on dashboard for running the simulator
 - Increased our product's awesome metric by 143%
 - Included Team's Venue's Size into attendance output
 
 Fixed:
-- 2020 season attendance skew of data 
-- indoor stadium temperature skew of data
-- ticket ceilling 0 pricing issue
+- 2020 season attendance skew of data on CLI
+- indoor stadium temperature skew of data on CLI
+- ticket ceilling 0 pricing issue on CLI
+- Font issue of readibility on Dashboard
 
 Note:
 Since most our program takes averages of all our data to compute the expected values, we can set the rows we wish to ignore in the calculation as NULL. Additionally as we continously clean our data, some row values are incomplete and hurt our program's confidence in calculating values and we're evaluating what to do with them. 
-
 
 ## Future
 For future plans we're considering expanding to other sports such as football and soccer and basketball. These sports share some of the same DNA that we have pooled to make our highly sophisticated predictions and can also benefit from our application when weiging in their expected attendance and for establishing ticket prices. **Stay tuned for our next version update and more great news from BAS**.
